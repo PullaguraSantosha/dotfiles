@@ -115,3 +115,5 @@ source $ZSH/oh-my-zsh.sh
 alias nv='nvim .'
 export PATH="/Users/santoshapullagura/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+export PATH="$JAVA_HOME/bin:$PATH"
