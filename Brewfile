@@ -42,6 +42,8 @@ brew "neovim"
 brew "ninja"
 # Port scanning utility for large networks
 brew "nmap"
+# Development kit for the Java programming language
+brew "openjdk@21"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Internet file retriever
@@ -84,11 +86,4 @@ vscode "tht13.html-preview-vscode"
 vscode "tomoki1207.pdf"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
-npm "@babel/cli"
-npm "concurrently"
 npm "corepack"
-npm "create-react-app"
-npm "nodemon"
-npm "react-scripts"
-npm "serve"
-npm "yarn"
